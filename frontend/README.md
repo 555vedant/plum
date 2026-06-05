@@ -1,0 +1,1 @@
+Frontend V1 scaffold for Insurance AI Adjudicator built with Next.js.

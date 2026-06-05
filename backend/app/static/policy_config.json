@@ -1,0 +1,36 @@
+{
+  "max_claim_amount": 5000.0,
+  "high_value_manual_review_threshold": 25000.0,
+  "min_claim_amount": 100.0,
+  "min_confidence_threshold": 0.8,
+  "late_submission_days": 30,
+  "doctor_reg_pattern": "^(?:[A-Z]{1,5}[0-9]{4,10}|[A-Z]{2}/[0-9]{1,10}/[0-9]{4})$",
+  "required_document_types": [
+    "Prescription"
+  ],
+  "non_covered_keywords": [
+    "teeth whitening",
+    "whitening",
+    "cosmetic",
+    "acne",
+    "hair transplant",
+    "weight loss",
+    "aesthetic",
+    "rhinoplasty",
+    "liposuction"
+  ],
+  "covered_keywords": [
+    "root canal",
+    "dental cavity",
+    "cavity",
+    "fever",
+    "cough",
+    "infection",
+    "consultation",
+    "fracture",
+    "flu",
+    "malaria",
+    "diabetes",
+    "hypertension"
+  ]
+}
