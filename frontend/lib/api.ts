@@ -1,6 +1,6 @@
 import { Claim } from "../types/claim"
 
-export const API_BASE = "http://localhost:8000/api/claims"
+export const API_BASE = "https://opd-adjudicator.onrender.com/api/claims"
 
 export interface UploadResult {
   id: string
